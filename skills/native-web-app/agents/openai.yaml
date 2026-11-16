@@ -1,0 +1,4 @@
+interface:
+  display_name: "Native Web App"
+  short_description: "Build mobile web experiences that feel native"
+  default_prompt: "Use $native-web-app to audit and improve this mobile web app, preserving its design and native browser behavior."
