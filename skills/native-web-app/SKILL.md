@@ -14,6 +14,7 @@ Make the interface respond as one continuous system. Preserve the product's visu
 3. Reproduce the symptom and record the browser, viewport, input method, and available device evidence. Separate an observed defect from a proposed enhancement.
 4. For an audit, report prioritized findings with file locations, causes, and verification steps. For an implementation request, make the smallest complete correction within the authorized scope. Do not stop at advice or introduce unrelated features.
 5. Read only the references needed below. Use the Buma profile only when explicitly requested or preserving an existing Buma decision. Do not impose its restrictions on other products.
+6. When the user asks for Buma's behavior in another product ("everything Buma does", "same as Buma"), port the full [Buma implementation checklist](references/buma-implementation.md), not only the parts tied to the current symptom. Report every row as applied, deliberately different, or not applicable. A partial port that skips the global shell (selection, zoom, pull-to-refresh, scroll lock, orientation, keyboard in sheets) still feels like a website.
 
 ## Load the relevant reference
 
@@ -23,6 +24,7 @@ Make the interface respond as one continuous system. Preserve the product's visu
 | Press, scrolling, sheets, carousels, crop gestures | [Touch and overlays](references/touch-and-overlays.md) |
 | Navigation, animation, snapshots, state continuity | [Motion and navigation](references/motion-and-navigation.md) |
 | Exact Buma settings and deliberate exceptions | [Buma profile](references/buma-profile.md) |
+| Porting all of Buma's shell behavior to another product, with code | [Buma implementation](references/buma-implementation.md) |
 | Verification and physical-device evidence | [Validation](references/validation.md) |
 | Origins and resolving historical conflicts | [Sources](references/sources.md) |
 

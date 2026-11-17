@@ -27,3 +27,5 @@ The reviewed Buma checkout HEAD was `ab535d04532d420fae17e443dfacf74e72f24f8a`; 
 Repository organization and mobile foundations were informed by [Emil Kowalski's skills](https://github.com/emilkowalski/skills). Buma previously installed his `mobile-native` skill at commit `2d228630ba1446365f614a108cb8252f1feda202`; its MIT attribution is retained in this repository's third-party notice. The current upstream README and mobile-native overview were reviewed on 16 November 2026.
 
 This skill adds Buma's form-shell, shared lifecycle, navigation, gesture, and evidence contracts. It does not bundle Emil's skill, Buma's assets, fonts, private customer data, product secrets, or business logic. It is not an endorsement or affiliation.
+
+The implementation checklist was added on 17 November 2026, after porting the profile to a second product (Next.js App Router) showed that a symptom-driven pass left the global shell untouched. Its code is adapted from the same Buma working tree (`styles/global.css`, `lib/preventPullToRefresh.ts`, `lib/preventPinchZoom.ts`, `lib/lockDocumentScroll.ts`, `components/PortraitOnly.tsx`, `lib/drawerMotion.ts`).

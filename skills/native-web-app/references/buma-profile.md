@@ -2,6 +2,8 @@
 
 Extracted 16 November 2026 from the Buma working tree. Use these settings to reproduce the chosen Buma behavior, not as universal mobile defaults. Preserve a target project's newer explicit decisions.
 
+To port these settings and the shell behavior behind them, follow the [implementation checklist](buma-implementation.md), which also has portable code.
+
 ## Settings
 
 | Area | Observed setting | Application |
